@@ -1,8 +1,8 @@
 /*
  * software_timer.c
  *
- *  Created on: Dec 21, 2022
- *      Author: pmt12
+ *  Created on: Dec 14, 2023
+ *      Author: 84334
  */
 #include "global.h"
 #include "software_timer.h"

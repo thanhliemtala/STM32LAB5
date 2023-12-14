@@ -37,11 +37,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  00002a0c  00000000  00000000  00031c28  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0000e604  00000000  00000000  00034634  2**0
+ 17 .debug_line   0000e603  00000000  00000000  00034634  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0008d858  00000000  00000000  00042c38  2**0
+ 18 .debug_str    0008d858  00000000  00000000  00042c37  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000053  00000000  00000000  000d0490  2**0
+ 19 .comment      00000053  00000000  00000000  000d048f  2**0
                   CONTENTS, READONLY
  20 .debug_frame  00003b94  00000000  00000000  000d04e4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -1359,8 +1359,8 @@ __STATIC_FORCEINLINE void __disable_irq(void)
 	...
 
 080008cc <setTimer>:
- *  Created on: Dec 21, 2022
- *      Author: pmt12
+ *  Created on: Dec 14, 2023
+ *      Author: 84334
  */
 #include "global.h"
 #include "software_timer.h"
